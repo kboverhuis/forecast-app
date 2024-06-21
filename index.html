@@ -15,14 +15,20 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city.." required />
+        <form class="search-form" id="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+            id="search-form-input"
+          />
           <input type="submit" value="Search" />
         </form>
       </header>
       <main>
         <div>
-          <h1>Minneapolis</h1>
+          <h1 class="weather-app-city" id="weather-app-city">Minneapolis</h1>
           <p>
             Tuesday 1528, Partly sunny <br />
             Humidity: 64%, Wind: 12 mph
@@ -45,5 +51,6 @@
         >
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>

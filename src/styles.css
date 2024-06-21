@@ -1,6 +1,7 @@
 body {
   background-position: cover;
-  background: #918fbf;
+  background: linear-gradient(to top, #ffc8a9 0%, #a981bb 49%, #3b41c5 100%);
+  background-repeat: no-repeat;
   font-family: "PT Sans", sans-serif;
 }
 
@@ -9,6 +10,6 @@ body {
   padding: 30px;
   margin: 30px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-  background: linear-gradient(to top, #ffc8a9, #a981bb 49% #3b41c5 0% 100%);
+  background: #f6ece7;
   border-radius: 10px;
 }
